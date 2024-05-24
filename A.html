@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev</title>
+    <style>
+        .main {
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+        }
+        #row-1, #row-2 {
+            width: 500px;
+            height: 250px;
+        }
+
+        #row-1 {
+            background-color: brown;
+        }
+
+        #row-2 {
+            float: left;
+            width: 100%; /* Ensure it spans the full width */
+        }
+
+        .col-1, .col-2, .col-3, .col-4 {
+            height: 250px;
+            width: 250px;
+            float: left; /* Adjust all to float left for consistency */
+        }
+
+        .col-1 {
+            background-color: beige;
+        }
+        .col-2 {
+            background-color: blueviolet;
+        }
+        .col-3 {
+            background-color: blue;
+        }
+        .col-4 {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="row-1">
+            <div class="col-1">
+                <div>Home</div>
+            </div>
+            <div class="col-2">
+                <div>About</div>
+            </div>
+        </div>
+        <div id="row-2">
+            <div class="col-3">
+                <div>Contact us</div>
+            </div>
+            <div class="col-4">
+                <div>Gallery</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

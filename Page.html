@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <style>
+        .main {
+            height: 540px;
+            width: 1000px;
+            background-color: aqua;
+        }
+
+        .row-1 {
+            height: 100px;
+            width: 1000px;
+            background-color: rgb(179, 255, 0);
+            text-align: center;
+            font-size: 40px;
+            color: black;
+            font-style: italic;
+        }
+
+        .row-2 {
+            width: 1000px;
+            height: 40px;
+            background-color: red;
+            font-size: 30px;
+            color: azure;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        .row-2-col-1, .row-2-col-2, .row-2-col-3, .row-2-col-4, .row-2-col-5 {
+            width: 20%;
+            height: 40px;
+            float: left;
+            text-align: center;
+        }
+
+        .row-2-col-1 {
+            background-color: blueviolet;
+        }
+
+        .row-2-col-2 {
+            background-color: rgb(43, 226, 223);
+        }
+
+        .row-2-col-3 {
+            background-color: rgb(67, 43, 226);
+        }
+
+        .row-2-col-4 {
+            background-color: rgb(226, 119, 43);
+        }
+
+        .row-2-col-5 {
+            background-color: rgb(101, 43, 226);
+        }
+
+        .row-3 {
+            height: 200px;
+            width: 1000px;
+            background-color: blue;
+            display: flex;
+        }
+
+        .row-3-col-1 {
+            width: 25%;
+            height: 200px;
+            color: black;
+            text-align: center;
+            font-style: italic;
+            background-color: bisque;
+           
+        }
+
+        .row-3-col-1 > div {
+            height: 40px;
+            background-color: rgb(154, 21, 21);
+            margin-bottom: 5px;
+        }
+
+        .row-3-coll {
+            width: 75%;
+            height: 200px;
+            background-color: black;
+        }
+
+        .row-3-coll img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row-1">
+            Welcome to the page
+        </div>
+
+        <div class="row-2">
+            <div class="row-2-col-1">Home</div>
+            <div class="row-2-col-2">About</div>
+            <div class="row-2-col-3">Course</div>
+            <div class="row-2-col-4">Gallery</div>
+            <div class="row-2-col-5">Contact Us</div>
+        </div>
+
+        <div class="row-3">
+            <div class="row-3-col-1">
+                <div>Home</div>
+                <div>About</div>
+                <div>Course</div>
+                <div>Gallery</div>
+                <div>Contact Us</div>
+            </div>
+            <div class="row-3-coll">
+                <img src="static.jpg" alt="image" width="750px" height="200px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

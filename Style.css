@@ -1,0 +1,156 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+   
+    background-size: cover;
+    position: relative;
+    
+}
+.nav{
+    height: 60px;
+    width: 100%;
+ background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0vw;
+   
+}
+
+h1{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.navpart-2 {
+display: flex;
+gap: 2vw;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+@media (max-width:600px) {
+    .nav{
+       background-color: aqua; 
+       color: #dadada
+      
+    }
+    .nav h1{
+        font-size: 10vw;;
+    }
+    .navpart-2 h3{
+        font-size: 6vw;
+        display: none;
+    }
+
+   .navpart-2 i{
+    margin: 30px;
+    padding: 10px;
+   }
+}
+
+button{
+    height: 3vw;
+    width: 6vw;
+    background-color: rgb(255, 85, 0);
+ margin: 15px;
+ box-shadow: 2px 2px;
+ border-radius: 7px;
+}
+
+.containt{
+    height: calc(100% - 60px);
+    width: 100%;
+   display: flex;
+}
+
+.left{
+    width: 40%;
+    height: 100%;
+    background-color:white;
+ 
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.left h2 span{
+    color: rgb(210, 87, 16);
+}
+
+.left h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.left p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+       .rigth{
+        width: 100%;
+        height: 100%;
+      padding: 30px;
+       }
+       .right img{
+        height: 100%;
+        width: 700px;
+  
+       }
+
+       .container{
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+        display: flex;
+        border-bottom: 2px solid black
+   ;
+      
+       }
+
+       .text{
+        font-size: 40p;
+        font-style: italic;
+        font-weight: 600;
+        width: 100%;
+        height: 10%;
+        background-color: burlywood;
+        text-align: center;
+       }
+        .about-1{
+      
+       width: 100%;
+        
+        background-color: black;
+       }
+       .about-1 img{
+        height: 100%;
+        width: 100%;
+       }
+      
+       .about-2{
+        height: 100%;
+        width: 100%;
+         
+         background-color: rgb(234, 227, 227);
+        }
+
+        .navpart-2 :hover{
+        color: orange;
+            cursor: pointer;
+        
+        }
+       
+ 
+     
